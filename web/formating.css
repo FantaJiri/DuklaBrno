@@ -1,0 +1,98 @@
+* {
+  word-break: break-word;
+}
+
+p {
+  color:   rgb(113, 0, 128);
+  text-align: center;
+}
+.p1 {
+  color: rgb(113, 0, 128);
+  text-align: justify;  
+}
+.large {
+  font-size: 300%;
+}
+
+body {
+  background: url('img/dukla_bg.png');
+}
+
+h1 {
+  color: #b32d00;
+  text-align: center;
+}
+h2 {
+  color: #b32d00;
+}
+
+.center{
+  text-align: center;
+}
+.main-section{
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 0;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.lead{
+  word-break: break-word;
+}
+
+.najezd a:hover,.btn:hover,.btn-primary:hover {
+  background-color: yellow;
+  color: black;
+}
+.najezd a,.btn,.btn-primary{
+  transition: 0.3s ease-in-out;
+}
+.fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+         background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-instagram:hover {
+color: lightseagreen;
+}
+.fab {
+  transition: 0.3s ease-in-out;
+}
+.zvetseni .fab:hover{
+  transform: scale(1.5);
+  background-color: transparent;
+  } 
+
+
+.fa-youtube {
+  color: red;
+}
+
+
+ 
+
+.fa-facebook-square:hover {
+color: #3b5998;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+  }
+
+.smin{
+  width: 100px !important;
+}
+
+.carousel img{
+  max-width: 800px;
+}
